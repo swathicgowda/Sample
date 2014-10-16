@@ -1,8 +1,9 @@
 language: node_js
-
+before_script:
+  - "npm isntall -g se-interpreter"
 
 script:
-- "Sample/interpreter.json"
+- "se-interpreter interpreter.json"
 
 addons:
   sauce_connect: true
