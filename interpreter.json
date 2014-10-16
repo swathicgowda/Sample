@@ -16,8 +16,8 @@
 				}
 			],
 			"scripts": [
-				"*/*/suites/*.json"
-				
+				"*/suites/*/*.json",
+				"*/*/suites/*/*.json"
 			]
 		}
 	]
