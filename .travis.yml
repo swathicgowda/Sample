@@ -1,6 +1,5 @@
 language: node_js
-before_script:
-  - "npm isntall -g se-interpreter"
+
 
 script:
 - "se-interpreter Sample/interpreter.json"
