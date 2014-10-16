@@ -13,21 +13,14 @@
 						"browserName": "firefox",
 						"username": "${SAUCE_USERNAME}",
 						"accesskey": "${SAUCE_ACCESS_KEY}"
-				},
-				"browserOptions": {
-						"browserName": "chrome",
-						"username": "${SAUCE_USERNAME}",
-						"accesskey": "${SAUCE_ACCESS_KEY}"
 				}
 			],
-			"type": [
-			{
-				"scripts": [
+			"scripts": [
 					"Sample/demo/suites/logout/logout.json",
 					"*/*/suites/*/*.json"
 			]
-			}
-			]
+			
+			
 		}
 	]
 }
