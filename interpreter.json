@@ -1,5 +1,5 @@
 {
-	"type": "interpreter",
+	"type": "interpreter-config",
 
 	"configurations": [
 		{
