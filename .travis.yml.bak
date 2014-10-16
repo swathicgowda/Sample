@@ -13,7 +13,7 @@ addons:
 env:
   global:
   - SAUCE_USERNAME=testyantra1
-  - secure: f81a366e-8252-4af4-a850-9cf37d3bc9e2
+  - SAUCE_ACCESS_KEY: f81a366e-8252-4af4-a850-9cf37d3bc9e2
 
 notifications:
   email:
