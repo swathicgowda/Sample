@@ -3,15 +3,15 @@ language: node_js
 node_js: 0.1
 
 script:
-- node_modules/.bin/se-interpreter interpreter.json
+- "se-interpreter selenium/interpreter.json"
 
 addons:
   sauce_connect: true
 
 env:
   global:
-  - secure: testyantra1
-  - secure: f81a366e-8252-4af4-a850-9cf37d3bc9e2
+  - SAUCE_USERNAME: testyantra1
+  - ACCESS_KEY: f81a366e-8252-4af4-a850-9cf37d3bc9e2
 
 notifications:
   email:

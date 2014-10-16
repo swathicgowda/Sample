@@ -10,10 +10,14 @@
 						"port": 80
 					},
 					"browserOptions": {
-						"browserName": "firefox"
+						"browserName": "firefox",
+						"username": "${SAUCE_USERNAME}",
+						"accesskey": "${SAUCE_ACCESS_KEY}"
 					},
 					"browserOptions": {
-						"browserName": "chrome"
+						"browserName": "chrome",
+						"username": "${SAUCE_USERNAME}",
+						"accesskey": "${ACCESS_KEY}"
 					}
 				}
 			],
