@@ -2,7 +2,7 @@ language: node_js
 
 
 script:
-- "~/build/swathicgowda/Sample/se-interpreter interpreter.json"
+- "Sample\node_modules\.bin\interpreter.json"
 
 addons:
   sauce_connect: true
