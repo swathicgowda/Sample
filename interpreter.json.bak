@@ -15,12 +15,8 @@
 						"accesskey": "${SAUCE_ACCESS_KEY}"
 				}
 			],
-			"type": [
-			{
-				"scripts": [
-					"Sample/demo/suites/logout/logout.json"
-			]
-			}
+			"scripts": [
+				"Sample/demo/suites/logout/logout.json"
 			]
 		}
 	]
