@@ -1,5 +1,5 @@
 {
-	"type": "interpreter-config",
+	"type": "interpreter",
 
 	"configurations": [
 		{
@@ -13,12 +13,6 @@
 						"browserName": "firefox",
 						"username": "${SAUCE_USERNAME}",
 						"accesskey": "${SAUCE_ACCESS_KEY}"
-					},
-					"browserOptions": {
-						"browserName": "chrome",
-						"username": "${SAUCE_USERNAME}",
-						"accesskey": "${ACCESS_KEY}"
-					}
 				}
 			],
 			"scripts": [
