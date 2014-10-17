@@ -18,8 +18,8 @@
 			"suites":[
 			{
 				"scripts": [
-						"*/*/*/suites/*/*.json",
-						"demo/suites/logout/logout.json"
+						"*/*/*/suites/*/*",
+						"demo/suites/logout/*"
 						]	
 			}
 			]
