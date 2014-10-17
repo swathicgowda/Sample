@@ -16,8 +16,7 @@
 			"suites":[
 			{
 				"scripts": [
-						"*/*/*/suites/*/*",
-						"demo/suites/logout/*"
+						"*/suites/*/*"
 						]	
 			}
 			]
