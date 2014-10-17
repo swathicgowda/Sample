@@ -2,7 +2,7 @@ language: node_js
 node_js: 0.1
 
 before_script:
-  - "npm isntall -g se-interpreter"
+  - "npm isntall se-interpreter"
 
 script:
 - se-interpreter Sample/demo/suites/logout/logout.json
