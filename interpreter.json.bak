@@ -15,15 +15,12 @@
 						"accesskey": "${SAUCE_ACCESS_KEY}"
 				}
 			],
-			"suites":[
-			{
-				"scripts": [
-						"*/*/*/suites/*/*.json"
-						"/demo/suites/logout/logout.json",
-						"*/*/suites/*/*.json"
-					]	
-			}
+			"scripts": [
+					"*/*/*/suites/*/*.json"
+					"/demo/suites/logout/logout.json",
+					"*/*/suites/*/*.json"
 			]
+			
 			
 		}
 	]
