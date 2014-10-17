@@ -13,13 +13,10 @@
 						"browserName": "firefox"
 				}
 			],
-			"suites":[
-			{
-				"scripts": [
+			"scripts": [
 						"*/suites/*/*"
-						]	
-			}
-			]
+				   ]	
+			
 			
 		}
 	]
