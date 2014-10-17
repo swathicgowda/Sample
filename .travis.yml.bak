@@ -7,8 +7,7 @@ before_script:
 script:
 - se-interpreter Sample/interpreter.json
 
-addons:
-  sauce_connect: true
+
 
 env:
   global:
