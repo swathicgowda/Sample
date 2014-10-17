@@ -5,6 +5,7 @@ before_script:
   - "npm isntall -g se-interpreter"
 
 script:
+- se-interpreter examples/tests/get.json
 - se-interpreter Sample/interpreter.json
 
 addons:
