@@ -22,7 +22,7 @@
 					}
 				}
 			],
-			"script": "Sample/login.json"
+			"script": Sample/login.json
 			
 			
 		}
