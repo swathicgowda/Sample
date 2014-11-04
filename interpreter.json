@@ -18,8 +18,7 @@
 				}
 			],
 			"scripts": [
-						"*/*/suites/*/logout.json",
-						"*/*/tests/*/login.json"
+					"Sample/login.json"
 				   ]	
 			
 			
