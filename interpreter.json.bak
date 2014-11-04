@@ -11,10 +11,7 @@
 					},
 					"browserOptions": {
 						"browserName": "firefox"
-				},
-					"browserOptions": {
-						"browserName": "chrome"
-					}
+				}
 			],
 			"scripts": [
 						"*/suites/*/*",						

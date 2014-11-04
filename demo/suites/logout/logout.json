@@ -7,10 +7,10 @@
       "where": "local",
       "path": "../../tests/login/login.json"
     },
-	{
+    {
       "where": "local",
       "path": "../../tests/logout/logout.json"
     }
   ],
-  "shareState": true
+  "shareState": false
 }

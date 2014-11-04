@@ -2,7 +2,7 @@ language: node_js
 node_js: 0.1
 
 before_script:
-  - npm isntall - g se-interpreter
+  - npm isntall se-interpreter
 
 script:
 - Sample/se-interpreter interpreter.json
