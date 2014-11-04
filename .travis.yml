@@ -5,7 +5,7 @@ before_script:
     - "npm install -g se-interpreter"
 
 script:
-- /home/travis/.nvm/v0.10.33/lib/node_modules/.bin/se-interpreter Sample/interpreter.json
+- node_modules/.bin/se-interpreter Sample/interpreter.json
 
 addons:
   sauce_connect: true
