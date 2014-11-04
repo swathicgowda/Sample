@@ -14,8 +14,8 @@
 				}
 			],
 			"scripts": [
-						"*/suites/*/*",						
-						"demo/suites/logout/logout.json"
+									
+						"suites/logout/logout.json"
 				   ]	
 			
 			
