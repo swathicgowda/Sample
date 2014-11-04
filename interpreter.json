@@ -1,25 +1,28 @@
 {
 	"type": "interpreter-config",
 
-	"configurations": [
+	"configurations": 
+	[
 		{
-			"settings": [
+			"settings": 
+			[
 				{
-					"driverOptions": {
+					"driverOptions":
+					{
 						"host": "ondemand.saucelabs.com",
 						"port": 80
 					},
-					"browserOptions": {
+					"browserOptions": 
+					{
 						"browserName": "firefox"
-				},
-					"browserOptions": {
+					},
+					"browserOptions": 
+					{
 						"browserName": "chrome"
 					}
 				}
 			],
-			"scripts": [
-					"Sample/login.json"
-				   ]	
+			"script": "Sample/login.json"
 			
 			
 		}
