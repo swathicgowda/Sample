@@ -22,7 +22,11 @@
 					}
 				}
 			],
-			"script": Sample/login.json
+			"script": [
+				"Sample/demo/suites/logout/logout.json",
+				"*/*/suites/logout/logout.json"
+
+				]
 			
 			
 		}
